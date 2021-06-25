@@ -41,7 +41,25 @@ export default function Sidebar() {
             <Link to="/newProduct" className="link">
               <li className="sidebarListItem">
                 < Group className="sidebarIcon" />
-                Staff
+                Departamenti
+              </li>
+            </Link>
+            <Link to="/newProduct" className="link">
+              <li className="sidebarListItem">
+                < Group className="sidebarIcon" />
+                Orari
+              </li>
+            </Link>
+            <Link to="/newProduct" className="link">
+              <li className="sidebarListItem">
+                < Group className="sidebarIcon" />
+                Dega
+              </li>
+            </Link>
+            <Link to="/newProduct" className="link">
+              <li className="sidebarListItem">
+                < Group className="sidebarIcon" />
+                Viti Akademik
               </li>
             </Link>
           </ul>
