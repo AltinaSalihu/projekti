@@ -8,7 +8,7 @@ import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 
-import NewProduct from "./pages/add/NewProduct";
+
 import editAplikantet from "./pages/editAplikantet1/editAplikantet";
 
 function App() {
@@ -36,11 +36,7 @@ function App() {
           <Route path="/products">
             <ProductList />
           </Route>
-         
-         
-          <Route path="/newproduct">
-            <NewProduct />
-          </Route>
+
           
         </Switch>
       </div>
