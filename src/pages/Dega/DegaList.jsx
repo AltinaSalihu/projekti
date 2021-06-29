@@ -1,4 +1,4 @@
-import "./DepartmentList.css";
+import "./DegaList.css";
 import { DataGrid } from "@material-ui/data-grid";
 import { userRows } from "../../dummyData";
 import { Link } from "react-router-dom";
@@ -29,13 +29,13 @@ export default function UserList() {
       renderCell: (params) => {
         return (
           <>
-            <Link to={"/editAplikantet/" + params.row.id}>
+            <Link to={"/EditDega/" + params.row.id}>
               <button className="userListEdit">Edit</button>
             </Link>
             <Link to={"/user/" + params.row.id}>
             <Visibility className="widgetSmIcon" />
             </Link>
-            <Link to={"/newUser/" + params.row.id}>
+            <Link to={"/AddDega/" + params.row.id}>
             <AddCircle className="widgetSmIcon" />
             </Link>
             
@@ -58,15 +58,4 @@ export default function UserList() {
   );
 }
 
-  return (
-    <div className="userList">
-      <DataGrid
-        rows={data}
-        disableSelectionOnClick
-        columns={columns}
-        pageSize={8}
-        checkboxSelection
-      />
-    </div>
-  );
 

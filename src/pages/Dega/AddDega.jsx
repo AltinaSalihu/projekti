@@ -1,4 +1,4 @@
-import "./newDepartment.css";
+import "./AddDega.css";
 import { Link } from "react-router-dom";
 export default function NewUser() {
   return (
@@ -9,7 +9,7 @@ export default function NewUser() {
           <label>Shto Degen</label>
           <input type="text" placeholder="Gjilan" />
         </div>
-        <Link to={"/DepartmentList/"}>
+        <Link to={"/DegaList/"}>
               <button className="newUserButton">Shto</button>
               </Link>
       </form>

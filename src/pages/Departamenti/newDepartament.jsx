@@ -9,7 +9,7 @@ export default function NewUser() {
           <label>Shto Departamentin</label>
           <input type="text" placeholder="SHKI" />
         </div>
-        <Link to={"/DepartmentList/"}>
+        <Link to={"/DepartamentList/"}>
               <button className="newUserButton">Shto</button>
               </Link>
       </form>

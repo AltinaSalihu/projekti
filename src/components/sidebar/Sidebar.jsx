@@ -38,25 +38,25 @@ export default function Sidebar() {
                 Te regjistruarit
               </li>
             </Link>
-            <Link to="/newProduct" className="link">
+            <Link to="/DepartamentList" className="link">
               <li className="sidebarListItem">
                 < Group className="sidebarIcon" />
                 Departamenti
               </li>
             </Link>
-            <Link to="/newProduct" className="link">
+            <Link to="/OrariList" className="link">
               <li className="sidebarListItem">
                 < Group className="sidebarIcon" />
                 Orari
               </li>
             </Link>
-            <Link to="/newProduct" className="link">
+            <Link to="/DegaList" className="link">
               <li className="sidebarListItem">
                 < Group className="sidebarIcon" />
                 Dega
               </li>
             </Link>
-            <Link to="/newProduct" className="link">
+            <Link to="/VitiList" className="link">
               <li className="sidebarListItem">
                 < Group className="sidebarIcon" />
                 Viti Akademik

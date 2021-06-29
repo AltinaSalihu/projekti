@@ -28,5 +28,11 @@
 .widgetSmIcon{
     color: #1C2A59 ;
     cursor: pointer;
+    margin-left : 20px ;
 }
 
+
+.userListDelete{
+  color: red;
+  cursor: pointer;
+}

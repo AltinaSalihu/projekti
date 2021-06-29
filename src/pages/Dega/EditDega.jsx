@@ -1,6 +1,6 @@
 
   import { Link } from "react-router-dom";
-  import "./editDepartment.css";
+  import "./EditDega.css";
   
   export default function User() {
     return (
@@ -17,7 +17,7 @@
                   />
                 </div>
                
-                <Link to={"/DepartmentList/"}>
+                <Link to={"/DegaList/"}>
                 <button className="userUpdateButton">Update</button>
                 </Link>
               </div>
