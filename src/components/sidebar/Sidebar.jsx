@@ -1,24 +1,13 @@
 import "./sidebar.css";
 import {
-  LineStyle,
-  Timeline,
-  TrendingUp,
   PermIdentity,
-  Storefront,
-  AttachMoney,
-  BarChart,
-  MailOutline,
-  DynamicFeed,
-  ChatBubbleOutline,
-  WorkOutline,
-  Report,
-  InsertChartOutlined,
-  InsertDriveFile,
-  FolderSharedOutlined,
-  Group,
+  LocationCity,
+  Schedule,
+  AccountBalanceRounded,
+  School,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
-import { FormControl } from "@material-ui/core";
+
 
 export default function Sidebar() {
   return (
@@ -32,33 +21,28 @@ export default function Sidebar() {
                 Aplikantet
               </li>
             </Link>
-            <Link to="/products" className="link">
-              <li className="sidebarListItem">
-                < FolderSharedOutlined className="sidebarIcon" />
-                Te regjistruarit
-              </li>
-            </Link>
+            
             <Link to="/DepartamentList" className="link">
               <li className="sidebarListItem">
-                < Group className="sidebarIcon" />
+                < AccountBalanceRounded className="sidebarIcon" />
                 Departamenti
               </li>
             </Link>
             <Link to="/OrariList" className="link">
               <li className="sidebarListItem">
-                < Group className="sidebarIcon" />
+                < Schedule className="sidebarIcon" />
                 Orari
               </li>
             </Link>
             <Link to="/DegaList" className="link">
               <li className="sidebarListItem">
-                < Group className="sidebarIcon" />
+                < LocationCity className="sidebarIcon" />
                 Dega
               </li>
             </Link>
             <Link to="/VitiList" className="link">
               <li className="sidebarListItem">
-                < Group className="sidebarIcon" />
+                < School className="sidebarIcon" />
                 Viti Akademik
               </li>
             </Link>

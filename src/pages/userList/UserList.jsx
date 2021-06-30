@@ -22,7 +22,6 @@ export default function UserList() {
       renderCell: (params) => {
         return (
           <div className="userListUser">
-            <img className="userListImg" src={params.row.avatar} alt="" />
             {params.row.username}
           </div>
         );
@@ -52,7 +51,7 @@ export default function UserList() {
   },
     {
       field: "shto",
-      headerName: "Edito & Detajet & Shto ",
+      headerName: "Edito & Detajet ",
       width: 700,
       
       renderCell: (params) => {

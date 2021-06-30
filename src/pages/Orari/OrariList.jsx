@@ -3,8 +3,8 @@ import { DataGrid } from "@material-ui/data-grid";
 import { userRows } from "../../dummyData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { Visibility } from "@material-ui/icons";
 import { AddCircle } from "@material-ui/icons";
+import { DeleteOutline } from "@material-ui/icons";
 
 export default function UserList() {
   const [data, setData] = useState(userRows);
@@ -19,7 +19,7 @@ export default function UserList() {
   {
     field: "Orari",
     headerName: "Orari",
-    width: 700,
+    width: 160,
   },
     {
       field: "shto",
@@ -32,9 +32,10 @@ export default function UserList() {
             <Link to={"/EditOrari/" + params.row.id}>
               <button className="userListEdit">Edit</button>
             </Link>
-            <Link to={"/user/" + params.row.id}>
-            <Visibility className="widgetSmIcon" />
-            </Link>
+            <DeleteOutline
+              className="userListDelete"
+              onClick={() => handleDelete(params.row.id)}
+            />
             <Link to={"/AddOrari/" + params.row.id}>
             <AddCircle className="widgetSmIcon" />
             </Link>

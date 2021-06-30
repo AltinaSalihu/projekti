@@ -17,7 +17,7 @@
                   />
                 </div>
                
-                <Link to={"/DepartmentList/"}>
+                <Link to={"/VitiList/"}>
                 <button className="userUpdateButton">Update</button>
                 </Link>
               </div>

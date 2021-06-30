@@ -1,6 +1,7 @@
 .user {
   flex: 4;
   padding: 20px;
+
 }
 
 .userTitleContainer {
@@ -23,6 +24,7 @@
 .userContainer {
   display: flex;
   margin-top: 20px;
+  width: fit-content;
 }
 
 .userShow {

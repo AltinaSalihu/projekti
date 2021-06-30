@@ -18,15 +18,7 @@ export default function User() {
       <div className="userContainer">
         <div className="userShow">
           <div className="userShowTop">
-            <img
-              src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-              alt=""
-              className="userShowImg"
-            />
-            <div className="userShowTopTitle">
-              <span className="userShowUsername">Altina</span>
-              <span className="userShowUserTitle">Software Engineer</span>
-            </div>
+           
           </div>
           <div className="userShowBottom">
             <span className="userShowTitle">Te dhenat personale</span>
@@ -38,7 +30,7 @@ export default function User() {
               <CalendarToday className="userShowIcon" />
               <span className="userShowInfoTitle">16.06.20001</span>
             </div>
-            <span className="userShowTitle">Te dehnat Kontaktuse</span>
+            <span className="userShowTitle">Te dhenat kontaktuse</span>
             <div className="userShowInfo">
               <PhoneAndroid className="userShowIcon" />
               <span className="userShowInfoTitle">+1 123 456 67</span>
@@ -52,71 +44,10 @@ export default function User() {
               <span className="userShowInfoTitle">Gjilan | Kosova</span>
             </div>
           </div>
-        </div>
-        <div className="userUpdate">
-          <span className="userUpdateTitle">Edito</span>
-          <form className="userUpdateForm">
-            <div className="userUpdateLeft">
-              <div className="userUpdateItem">
-                <label>Emri</label>
-                <input
-                  type="text"
-                  placeholder="Altina"
-                  className="userUpdateInput"
-                />
-              </div>
-              <div className="userUpdateItem">
-                <label>Mbiemri</label>
-                <input
-                  type="text"
-                  placeholder="Salihu"
-                  className="userUpdateInput"
-                />
-              </div>
-              <div className="userUpdateItem">
-                <label>Email</label>
-                <input
-                  type="text"
-                  placeholder="altinasalihu@gmail.com"
-                  className="userUpdateInput"
-                />
-              </div>
-              <div className="userUpdateItem">
-                <label>Nr.Telefonit</label>
-                <input
-                  type="text"
-                  placeholder="+1 123 456 67"
-                  className="userUpdateInput"
-                />
-              </div>
-              <div className="userUpdateItem">
-                <label>Addresa</label>
-                <input
-                  type="text"
-                  placeholder="Gjilan| Kosova"
-                  className="userUpdateInput"
-                />
+        </div>  
               </div>
             </div>
-            <div className="userUpdateRight">
-              <div className="userUpdateUpload">
-                <img
-                  className="userUpdateImg"
-                  src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                  alt=""
-                />
-                <label htmlFor="file">
-                  <Publish className="userUpdateIcon" />
-                </label>
-                <input type="file" id="file" style={{ display: "none" }} />
-              </div>
-              <Link to={"/users/"}>
-              <button className="userUpdateButton">Update</button>
-              </Link>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
+            
+        
   );
 }

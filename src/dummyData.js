@@ -67,10 +67,7 @@ export const userData = [
   export const userRows = [
     {
       id: 1,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
@@ -80,10 +77,8 @@ export const userData = [
     },
     {
       id: 2,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+     
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
@@ -93,36 +88,25 @@ export const userData = [
     },
     {
       id: 3,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
       mbiemri:"Salihu",
       drejtimi:"SHKI",
-
     },
     {
       id: 4,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
       mbiemri:"Salihu",
       drejtimi:"SHKI",
-
     },
     {
       id: 5,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
@@ -132,10 +116,7 @@ export const userData = [
     },
     {
       id: 6,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
@@ -145,10 +126,7 @@ export const userData = [
     },
     {
       id: 7,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
@@ -158,10 +136,7 @@ export const userData = [
     },
     {
       id: 8,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
@@ -171,23 +146,16 @@ export const userData = [
     },
     {
       id: 9,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
       mbiemri:"Salihu",
       drejtimi:"SHKI",
-
     },
     {
       id: 10,
-      username: "Altina",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      dataregjistrimie: "11-06-2021",
+      dataregjistrimit: "11-06-2021",
       numripersonal: "10000002200",
       emri: "Altina",
       emriprindit: "Filan",
